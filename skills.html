@@ -1,40 +1,51 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Skills — Nikunj</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
     <div class="container">
-        <nav>
-            <div class="logo">NR • Nikunj</div>
-            <div class="links">
-                <a href="index.html">Home</a>
-                <a href="projects.html">Projects</a>
-                <a href="skills.html" class="active">Skills</a>
-                <a href="gaming.html">Gaming</a>
-                <a href="contact.html">Contact</a>
+
+        <header class="header">
+            <div class="logo">
+                <div class="initial">NR</div>
+                <div style="font-weight:700">Nikunj Mirajkar</div>
             </div>
-        </nav>
+            <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+            <nav class="nav" id="main-nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">Cloud/DevOps</a>
+                <a href="projects.html">Projects</a>
+                <a href="skills.html">Skills</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <a href="gaming.html" class="gaming-nav-link">Gaming Zone</a>
+        </header>
 
         <section class="card">
-            <h1 class="h1">Skills</h1>
+            <h1 class="h1">Technical Skills</h1>
             <div class="kv">
-                <div class="chip">Azure</div>
+                <div class="chip">Cloud: Azure</div>
                 <div class="chip">Docker</div>
                 <div class="chip">Kubernetes</div>
-                <div class="chip">CI/CD</div>
+                <div class="chip">CI/CD Pipelines</div>
                 <div class="chip">Python</div>
-                <div class="chip">MQTT</div>
+                <div class="chip">Distributed Systems</div>
+                <div class="chip">MQTT Messaging</div>
+                <div class="chip">Java, SQL</div>
             </div>
         </section>
 
-        <footer class="footer">© 2025 Nikunj</footer>
+        <footer class="footer">
+            <div>&lt;/&gt; Nikunj</div>
+            <div style="color:var(--muted)">Skills & Expertise</div>
+        </footer>
+
     </div>
-    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

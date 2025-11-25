@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const reveals = document.querySelectorAll('.reveal');
     reveals.forEach((el, i) => setTimeout(() => el.style.opacity = 1, i * 120));
 
-    // NEW: Mobile Navigation Toggle functionality
+    // Mobile Navigation Toggle functionality
     const navToggle = document.querySelector('.nav-toggle');
     const mainNav = document.getElementById('main-nav');
 
@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const navLinks = mainNav.querySelectorAll('a');
         navLinks.forEach(link => {
             link.addEventListener('click', () => {
+                // Check if the screen width is 880px or less before closing
                 if (window.innerWidth <= 880) {
                     mainNav.classList.remove('is-open');
                 }

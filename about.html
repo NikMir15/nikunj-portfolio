@@ -1,62 +1,65 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>About — Nikunj Mirajkar</title>
-    <link rel="stylesheet" href="css/styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Nikunj Mirajkar</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <div class="container">
-        <header class="header">
-            <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
-            <nav class="nav" id="main-nav">
-                <a href="index.html">Home</a>
-                <a href="about.html">Cloud/DevOps</a>
-                <a href="projects.html">Projects</a>
-                <a href="skills.html">Skills</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-            <a href="gaming.html" class="gaming-nav-link">Gaming Zone</a>
-        </header>
 
-        <section class="card">
-            <h1 class="h1">Cloud & DevOps</h1>
-            <div class="terminal">
-                Motivated Cloud and DevOps graduate with hands-on experience in Docker, CI/CD, Azure, and cloud-native
-                architecture.
-                Skilled in building containerized applications, automating workflows, and developing backend services.
-            </div>
+  <nav class="navbar">
+    <div class="logo">Nikunj</div>
 
-            <div style="display:grid;grid-template-columns:1fr; gap:12px; margin-top:12px">
-                <div class="card">
-                    <h3 style="color:var(--accent)">Education</h3>
-                    <div style="margin-bottom:10px;">
-                        <strong>MSc Cloud and Enterprise Computing</strong><br>
-                        Nottingham Trent University, UK (2024–2025)
-                    </div>
-                    <div>
-                        <strong>BSc Computer Science</strong><br>
-                        Savitribai Phule Pune University, India (2020–2023)
-                    </div>
-                </div>
+    <ul class="nav-links" id="main-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a class="active" href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="gaming.html">Gaming</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
 
-                <div class="card">
-                    <h3 style="color:var(--accent)">Certifications</h3>
-                    <div>
-                        Microsoft Certified: <strong>Azure Fundamentals (AZ-900)</strong> (2025)
-                    </div>
-                </div>
-            </div>
-        </section>
+    <div class="menu-toggle nav-toggle">&#9776;</div>
+  </nav>
 
-        <footer class="footer">
-            <div style="color:var(--muted)">Contact: nikunjmirajkar15@gmail.com</div>
-        </footer>
+  <header class="page-hero reveal">
+    <h1>About Me</h1>
+    <p>Cloud • DevOps • Platform Engineering</p>
+  </header>
+
+  <main class="container reveal">
+    <div class="card">
+      <p>
+        I’m a Cloud & DevOps graduate based in Nottingham, UK, with hands-on experience building and deploying
+        cloud-native systems using AWS, Docker, CI/CD pipelines, and Infrastructure as Code (Terraform).
+        Through practical projects, I’ve worked on microservices architectures, API routing, secure HTTPS traffic via
+        load balancers, and cloud networking fundamentals (VPCs, subnets, security groups, IP-restricted access).
+      </p>
+      <p>
+        I’m comfortable working in Linux environments, using Git/GitHub daily, and building backend services with REST APIs in Python/Java.
+        I enjoy troubleshooting real deployment issues (container networking, CORS, routing) and turning requirements into reliable,
+        production-ready solutions with clear documentation.
+      </p>
+      <p>
+        I’m currently seeking entry-level / graduate roles in <strong>DevOps, Cloud Engineering, Platform Engineering, or Infrastructure</strong>
+        in the UK, where I can contribute to scalable systems, automation, and operational reliability.
+      </p>
+      <p><strong>Right to work in the UK.</strong></p>
     </div>
-    <script src="js/main.js"></script>
-</body>
 
+    <div class="card">
+      <h3>Certification</h3>
+      <p><strong>Microsoft Certified: Azure Fundamentals (AZ-900)</strong></p>
+      <p class="muted">Cloud concepts • Core Azure services • Security & pricing fundamentals</p>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2026 Nikunj Mirajkar. All rights reserved.
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
 </html>

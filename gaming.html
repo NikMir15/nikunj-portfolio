@@ -1,49 +1,57 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Gaming — Nikunj Mirajkar</title>
-    <link rel="stylesheet" href="css/styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gaming | Nikunj Mirajkar</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <div class="container">
-        <header class="header">
-            <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
-            <nav class="nav" id="main-nav">
-                <a href="index.html">Home</a>
-                <a href="about.html">Cloud/DevOps</a>
-                <a href="projects.html">Projects</a>
-                <a href="skills.html">Skills</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-            <a href="gaming.html" class="gaming-nav-link">Gaming Zone</a>
-        </header>
 
-        <section class="card gaming-hero">
-            <h1 class="neon-title">Gaming Zone</h1>
-            <p class="terminal">Streaming & gameplay content will appear here soon.</p>
-            <div class="gaming-grid">
-                <div class="gaming-card">
-                    <div class="thumbnail">PS5</div>
-                    <h4>Gameplay Clips</h4>
-                    <p style="color:var(--muted)">Story Mode & Multiplayer</p>
-                </div>
-                <div class="gaming-card">
-                    <div class="thumbnail">YouTube</div>
-                    <h4>Channel Growth</h4>
-                    <p style="color:var(--muted)">Brand building journey</p>
-                </div>
-            </div>
-        </section>
+  <nav class="navbar">
+    <div class="logo">Nikunj</div>
 
-        <footer class="footer">
-            <div style="color:var(--muted)">ShaddyCreek__15</div>
-        </footer>
+    <ul class="nav-links" id="main-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a class="active" href="gaming.html">Gaming</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="menu-toggle nav-toggle">&#9776;</div>
+  </nav>
+
+  <header class="page-hero reveal">
+    <h1>Gaming</h1>
+    <p>Tech + Gaming — strategy, teamwork & performance mindset 🎮</p>
+  </header>
+
+  <main class="container reveal">
+    <div class="projects-grid">
+      <div class="card">
+        <h3>Why Gaming?</h3>
+        <p>Improves strategic thinking, decision-making, teamwork, and optimisation mindset.</p>
+      </div>
+
+      <div class="card">
+        <h3>Favourite Games</h3>
+        <p>FIFA • Call of Duty • Spider-Man • Competitive + story games.</p>
+      </div>
+
+      <div class="card">
+        <h3>Highlights</h3>
+        <p>Add PS5 clips/screenshots anytime (YouTube links if you upload later).</p>
+      </div>
     </div>
-    <script src="js/main.js"></script>
-</body>
+  </main>
 
+  <footer>
+    &copy; 2026 Nikunj Mirajkar. All rights reserved.
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
 </html>
